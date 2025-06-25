@@ -7,7 +7,7 @@ assets_path = os.path.join(
         "assets"
     )
 
-# RGB
+# BGR
 img = cv2.imread(os.path.join(assets_path, 'imori.jpg'))
 
 # 0~1の範囲に正規化する
