@@ -1,5 +1,5 @@
 import os
-import cv2
+import cv2  # cv2は画像処理系でよく使う
 import numpy as np
 
 Que1_path = os.path.dirname(os.path.dirname(__file__))
